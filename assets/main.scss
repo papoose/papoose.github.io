@@ -6,9 +6,17 @@ $anchor-text-color: #CE534D;
 $background-color: #F1EED9;
 
 body {
-	font-family: 'Vollkorn', serif;
+	font-family: "clarendon-text-pro", serif;
+	font-style: normal;
+	font-weight: 400;
 	color: $text-color;
 	background-color: $background-color;
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: "chunk-1", "chunk-2", serif;
+	font-style: normal;
+	font-weight: 400;
 }
 
 header,
@@ -37,8 +45,9 @@ a:hover {
 
 /*** main content list ***/
 .main-list-item {
-	font-weight: bold;
-	font-size: 1.2em;
+	font-family: "chunk-1", "chunk-2", serif;
+	font-style: normal;
+	font-weight: 400;
 	margin: 0.8em 0;
 }
 
@@ -80,7 +89,10 @@ since it must be aligned with the content */
 
 /** version **/
 version {
-  font-style: italic;
+  font-family: "franklin-gothic-urw-cond-1", "franklin-gothic-urw-cond-2", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  color: #6f6b5d;
   white-space:pre;
 }
 
